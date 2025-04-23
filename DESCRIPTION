@@ -1,0 +1,54 @@
+Package: cellAdmixNotebooks
+Type: Package
+Title: cellAdmixNotebooks
+Version: 0.1.0
+Authors@R:
+    c(
+        person("Jonathan", "Mitchel", , "mitchel@mit.edu", role = c("aut", "cre")),
+        person("Viktor", "Petukhov", , "viktor.petukhov+gh@pm.me", role = c("aut")),
+        person("Teng", "Gao", , "tgao@broadinstitute.org", role = c("aut")),
+        person("Peter", "Kharchenko", , "pkharchenko@altoslabs.com", role = c("aut"))
+    )
+Description: Notebooks for the cellAdmix paper
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.2.0),
+    cellAdmix
+Imports:
+    arrow,
+    class,
+    dataorganizer (>= 0.1.2),
+    distances,
+    dplyr,
+    ggplot2,
+    ggbeeswarm,
+    ggrastr,
+    magrittr,
+    Matrix,
+    tiff,
+    EBImage,
+    tidyr,
+    extrafont,
+    NMF,
+    N2R,
+    R.utils,
+    Rcpp (>= 1.0.11),
+    reshape2,
+    sccore (>= 1.0.6),
+    Seurat,
+    sparseMatrixStats (>= 1.10.0),
+    viridis,
+Suggests:
+    alphahull,
+    dropestr,
+    ggnewscale,
+    ggtext,
+    msigdbdf
+Remotes:
+    const-ae/sparseMatrixStats,
+    kharchenkolab/sccore,
+    kharchenkolab/scITD,
+    khodosevichlab/dataorganizer
+RoxygenNote: 7.3.2

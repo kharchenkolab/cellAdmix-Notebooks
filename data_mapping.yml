@@ -1,0 +1,17 @@
+folders:
+  data: ../data
+
+datasets:
+  human_breast_cancer_rna: human_breast_cancer/scRNAseq
+  human_breast_cancer: human_breast_cancer/xenium
+  mouse_hypothalamus_rna: mouse_hypothalamus/scRNAseq
+  mouse_hypothalamus: mouse_hypothalamus/merfish
+  human_pancreas_rna: human_pancreas/scRNAseq
+  human_pancreas: human_pancreas/xenium
+  human_ovarian_cancer_rna: human_ovarian_cancer/scRNAseq
+  human_ovarian_cancer: human_ovarian_cancer/xenium_5k
+  mouse_gut_rna: mouse_gut/scRNAseq/GSE92332
+  mouse_gut: mouse_gut/merfish
+  nsclc_rna: NSCLC/scRNAseq/GSE127465
+  nsclc: NSCLC/CosmX
+  nsclc_lung5_1: NSCLC/CosmX/Lung5_Rep1/Lung5_Rep1-Flat_files_and_images
