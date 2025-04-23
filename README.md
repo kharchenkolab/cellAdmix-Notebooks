@@ -51,10 +51,3 @@ To download the data, use the following links:
   - snRNA-seq: [Single Cell Portal](http://singlecell.charite.de/cellbrowser/pancreas/)
 
 The code assumes that the data is stored in `../data` with a separate subfolder per dataset and per modality. See [data_mapping.yml](./data_mapping.yml) for details. There, you can also change the paths to match your local setup.
-
-
-## Individual dataset notes
-
-### Mouse Ileum
-
-Run [GUT_preprocessing.ipynb](./Analyses/Gut_analyses/GUT_preprocessing.ipynb) to preprocess the data.
